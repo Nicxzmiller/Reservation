@@ -66,6 +66,26 @@ const [options, setOptions] = useState({
                 <div className="headerSearchItem">
                     <BsFillPersonFill className="headerIcon" />
                     <span>{`${options.adult} adult • ${options.children} children • ${options.room} room`}</span>
+                    <div className="options">
+                        <div className="optionItem">
+                            <span className="optionText">Adult</span>
+                            <button className="optionCounterButton">-</button>
+                            <span className="optionCounterNumber">1</span>
+                            <button className="optionCounterButton">+</button>
+                        </div>
+                        <div className="optionItem">
+                            <span className="optionText">Children</span>
+                            <button className="optionCounterButton">-</button>
+                            <span className="optionCounterNumber">0</span>
+                            <button className="optionCounterButton">+</button>
+                        </div>
+                        <div className="optionItem">
+                            <span className="optionText">Room</span>
+                            <button className="optionCounterButton">-</button>
+                            <span className="optionCounterNumber">1</span>
+                            <button className="optionCounterButton">+</button>
+                        </div>
+                    </div>
                 </div>
                 <div className="headerSearchItem">
                     <button className="headerBtn">Search</button>
