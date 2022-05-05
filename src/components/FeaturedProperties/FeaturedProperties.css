@@ -1,0 +1,37 @@
+.fpList{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.fp{
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.fpName{
+    font-weight: bold;
+}
+
+.fpCity{
+    font-weight: 300;
+}
+
+.fpPrice{
+    font-weight: 500;
+}
+
+.fpRating>button{
+    background-color: #255F44;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
