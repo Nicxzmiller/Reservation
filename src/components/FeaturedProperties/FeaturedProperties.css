@@ -4,11 +4,12 @@
     max-width: 1000px;
     gap: 20px;
     justify-content: space-between;
+    margin: 10px;
 }
 
 .fp{
     flex: 1;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
     cursor: pointer;
     display: flex;
@@ -34,4 +35,8 @@
     padding: 3px;
     margin-right: 10px;
     font-weight: bold;
+}
+
+.fpRating{
+    font-size: 18px;
 }
