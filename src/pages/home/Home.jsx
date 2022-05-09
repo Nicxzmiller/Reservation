@@ -2,6 +2,7 @@ import React from 'react'
 import EmailList from '../../components/emailList/EmailList'
 import Featured from '../../components/featured/Featured'
 import FeaturedProperties from '../../components/FeaturedProperties/FeaturedProperties'
+import { Footer } from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import Navbar from '../../components/navbar/Navbar'
 import PropertyList from '../../components/propertyList/PropertyList'
@@ -19,6 +20,7 @@ function Home() {
         <h1 className="homeTitle">Home guests love</h1>
         <FeaturedProperties/>
         <EmailList/>
+        <Footer/>
       </div>
     </div>
   )
