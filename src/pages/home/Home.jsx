@@ -1,4 +1,5 @@
 import React from 'react'
+import EmailList from '../../components/emailList/EmailList'
 import Featured from '../../components/featured/Featured'
 import FeaturedProperties from '../../components/FeaturedProperties/FeaturedProperties'
 import { Header } from '../../components/header/Header'
@@ -17,6 +18,7 @@ function Home() {
         <PropertyList/>
         <h1 className="homeTitle">Home guests love</h1>
         <FeaturedProperties/>
+        <EmailList/>
       </div>
     </div>
   )
