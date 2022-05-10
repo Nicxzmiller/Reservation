@@ -23,6 +23,7 @@
     font-size: 20px;
     color: #fff;
     margin-bottom: 5px;
+    font-weight: 500;
     
 }
 
@@ -32,6 +33,13 @@
     gap: 5px;
     margin-bottom: 10px;
 }
+
+.lsItem>input{
+    height: 30%;
+    border: none;
+    padding: 5px;
+}
+
 
 .listResult{
     flex: 3;
