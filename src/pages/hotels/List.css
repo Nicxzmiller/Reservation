@@ -38,7 +38,20 @@
     height: 30%;
     border: none;
     padding: 5px;
+    cursor: pointer;
+    outline: none;
 }
+
+.lsItem>span{
+    height: 30%;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
 
 
 .listResult{
